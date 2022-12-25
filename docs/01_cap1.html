@@ -134,7 +134,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#corte-transversal-cross-section" id="toc-corte-transversal-cross-section" class="nav-link" data-scroll-target="#corte-transversal-cross-section"><span class="toc-section-number">2.1</span>  Corte transversal (<em>cross-section</em>)</a></li>
   <li><a href="#séries-temporais" id="toc-séries-temporais" class="nav-link" data-scroll-target="#séries-temporais"><span class="toc-section-number">2.2</span>  Séries temporais</a></li>
   <li><a href="#cortes-transversais-agrupados" id="toc-cortes-transversais-agrupados" class="nav-link" data-scroll-target="#cortes-transversais-agrupados"><span class="toc-section-number">2.3</span>  Cortes transversais agrupados</a></li>
+  <li><a href="#dados-de-painel" id="toc-dados-de-painel" class="nav-link" data-scroll-target="#dados-de-painel"><span class="toc-section-number">2.4</span>  Dados de painel</a></li>
   </ul></li>
+  <li><a href="#causalidade-e-ceteris-paribus" id="toc-causalidade-e-ceteris-paribus" class="nav-link" data-scroll-target="#causalidade-e-ceteris-paribus"><span class="toc-section-number">3</span>  Causalidade e <em>ceteris paribus</em></a></li>
   </ul>
 </nav>
     </div>
@@ -169,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="math inline">\(x_4\)</span> = probabilidade de ser capturado<br>
 </p>
 <p>Um modelo econômico pode ser escrito como uma função mais geral <span class="math inline">\(f(.)\)</span>.</p>
-<p>A partir de um modelo econômico, podemos especificar o <strong>modelo econométrico</strong> a partir dos dados disponíveis. <span class="math display">\[crime = \beta_0 + \beta_{1}wage_m + \beta_{2}otherinc + \beta_{3}freqarr + \mu\]</span> Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que <span class="math display">\[\beta_2 = 0\]</span>. A análise empírica, por definição, requer dados.</p>
+<p>A partir de um modelo econômico, podemos especificar o <strong>modelo econométrico</strong> a partir dos dados disponíveis. <span class="math display">\[crime = \beta_0 + \beta_{1}wage_m + \beta_{2}otherinc + \beta_{3}freqarr + \mu\]</span> Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que <span class="math inline">\(\beta_2 = 0\)</span>. A análise empírica, por definição, requer dados.</p>
 </section>
 <section id="estrutura-dos-dados-econômicos" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="estrutura-dos-dados-econômicos"><span class="header-section-number">2</span> Estrutura dos dados econômicos</h2>
@@ -183,10 +185,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="cortes-transversais-agrupados" class="level3" data-number="2.3">
 <h3 data-number="2.3" class="anchored" data-anchor-id="cortes-transversais-agrupados"><span class="header-section-number">2.3</span> Cortes transversais agrupados</h3>
-<p>O conjunto de dados tem característica tanto de corte transversal quanto de séries temporais.</p>
-
-
+<p>O conjunto de dados tem característica tanto de corte transversal quanto de séries temporais. Muito usado para analisar os efeitos de uma política de governo. Por exemplo, são coletados dados anteriores e posteriores a uma política pública.</p>
 </section>
+<section id="dados-de-painel" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="dados-de-painel"><span class="header-section-number">2.4</span> Dados de painel</h3>
+<p>Diferentemente dos dados de corte transversal agrupado, os dados de painel se referem ao <em>mesmo</em> indivíduo ao longo do tempo. Possui a vantagem de podermos controlar para fatores não observáveis.</p>
+</section>
+</section>
+<section id="causalidade-e-ceteris-paribus" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="causalidade-e-ceteris-paribus"><span class="header-section-number">3</span> Causalidade e <em>ceteris paribus</em></h2>
+<p>A noção de “todos os outros fatores constantes” desempenha função importante para estabelecer causalidade.</p>
+
+
 </section>
 
 </main> <!-- /main -->

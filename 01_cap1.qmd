@@ -21,7 +21,7 @@ Um modelo econômico pode ser escrito como uma função mais geral $f(.)$.
 
 A partir de um modelo econômico, podemos especificar o **modelo econométrico** a partir dos dados disponíveis. 
 $$crime = \beta_0 + \beta_{1}wage_m + \beta_{2}otherinc + \beta_{3}freqarr + \mu$$
-Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que $$\beta_2 = 0$$. A análise empírica, por definição, requer dados. 
+Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que $\beta_2 = 0$. A análise empírica, por definição, requer dados. 
 
 ## Estrutura dos dados econômicos
 
@@ -38,7 +38,7 @@ Observações de uma ou várias variáveis ao longo do tempo. Diferentemente do 
 O conjunto de dados tem característica tanto de corte transversal quanto de séries temporais.
 Muito usado para analisar os efeitos de uma política de governo. Por exemplo, são coletados dados anteriores e posteriores a uma política pública.
 
-### Dados de painels
+### Dados de painel
 
 Diferentemente dos dados de corte transversal agrupado, os dados de painel se referem ao *mesmo* indivíduo ao longo do tempo. Possui a vantagem de podermos controlar para fatores não observáveis.
 

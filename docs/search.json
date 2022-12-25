@@ -46,7 +46,7 @@
     "href": "01_cap1.html#análises-econômicas",
     "title": "1  A natureza da econometria",
     "section": "1 Análises econômicas",
-    "text": "1 Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime:\n\\[y = f(x_1, x_2, x_3, x_4)\\]\nem que:\n\\(x_1\\) = horas gastas em atividades criminosas\n\\(x_2\\) = “salário” por hora em atividade criminosa\n\\(x_3\\) = salário por hora em emprego legal\n\\(x_4\\) = probabilidade de ser capturado\n\nUm modelo econômico pode ser escrito como uma função mais geral \\(f(.)\\).\nA partir de um modelo econômico, podemos especificar o modelo econométrico a partir dos dados disponíveis. \\[crime = \\beta_0 + \\beta_{1}wage_m + \\beta_{2}otherinc + \\beta_{3}freqarr + \\mu\\] Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que \\[\\beta_2 = 0\\]. A análise empírica, por definição, requer dados."
+    "text": "1 Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime:\n\\[y = f(x_1, x_2, x_3, x_4)\\]\nem que:\n\\(x_1\\) = horas gastas em atividades criminosas\n\\(x_2\\) = “salário” por hora em atividade criminosa\n\\(x_3\\) = salário por hora em emprego legal\n\\(x_4\\) = probabilidade de ser capturado\n\nUm modelo econômico pode ser escrito como uma função mais geral \\(f(.)\\).\nA partir de um modelo econômico, podemos especificar o modelo econométrico a partir dos dados disponíveis. \\[crime = \\beta_0 + \\beta_{1}wage_m + \\beta_{2}otherinc + \\beta_{3}freqarr + \\mu\\] Com a definição dos modelos econométricos, poderíamos levantar a hipótese de que \\(\\beta_2 = 0\\). A análise empírica, por definição, requer dados."
   },
   {
     "objectID": "01_cap1.html",
@@ -60,6 +60,13 @@
     "href": "01_cap1.html#estrutura-dos-dados-econômicos",
     "title": "1  A natureza da econometria",
     "section": "2 Estrutura dos dados econômicos",
-    "text": "2 Estrutura dos dados econômicos\n\n2.1 Corte transversal (cross-section)\nConsiste em uma amostra de indivíduos em determinado ponto no tempo.\n\n\n2.2 Séries temporais\nObservações de uma ou várias variáveis ao longo do tempo. Diferentemente do corte transversal, os dados de séries temporiai frequentemente têm influência dos valores passados. Também é preciso ficar atento à sazonalidade.\n\n\n2.3 Cortes transversais agrupados\nO conjunto de dados tem característica tanto de corte transversal quanto de séries temporais."
+    "text": "2 Estrutura dos dados econômicos\n\n2.1 Corte transversal (cross-section)\nConsiste em uma amostra de indivíduos em determinado ponto no tempo.\n\n\n2.2 Séries temporais\nObservações de uma ou várias variáveis ao longo do tempo. Diferentemente do corte transversal, os dados de séries temporiai frequentemente têm influência dos valores passados. Também é preciso ficar atento à sazonalidade.\n\n\n2.3 Cortes transversais agrupados\nO conjunto de dados tem característica tanto de corte transversal quanto de séries temporais. Muito usado para analisar os efeitos de uma política de governo. Por exemplo, são coletados dados anteriores e posteriores a uma política pública.\n\n\n2.4 Dados de painel\nDiferentemente dos dados de corte transversal agrupado, os dados de painel se referem ao mesmo indivíduo ao longo do tempo. Possui a vantagem de podermos controlar para fatores não observáveis."
+  },
+  {
+    "objectID": "01_cap1.html#causalidade-e-ceteris-paribus",
+    "href": "01_cap1.html#causalidade-e-ceteris-paribus",
+    "title": "1  A natureza da econometria",
+    "section": "3 Causalidade e ceteris paribus",
+    "text": "3 Causalidade e ceteris paribus\nA noção de “todos os outros fatores constantes” desempenha função importante para estabelecer causalidade."
   }
 ]
