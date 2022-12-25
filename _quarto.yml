@@ -1,22 +1,24 @@
 project:
   type: book
   output-dir: docs
-
+  
 book:
-  title: "econ"
+  title: "Resumo - Econometria"
   author: "Bruno Veloni"
-  date: "24/12/2022"
+  date: "12/25/2022"
+  language: "pt-BR"
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
+    - 01_cap1.qmd
+    - 02_cap2.qmd
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: journal
   pdf:
     documentclass: scrreprt
 

@@ -1,0 +1,21 @@
+---
+title: "A natureza da econometria"
+crossref:
+  eq-prefix: Equação
+---
+
+
+## Análises econômicas
+
+Um modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime:
+
+$$
+y = f(x_1, x_2, x_3, x_4)
+$$
+
+em que:
+
+$x_1$ = horas gastas em atividades criminosas\
+$x_2$ = "salário" por hora em atividade criminosa\
+$x_3$ = salário por hora em emprego legal\
+$x_4$ = probabilidade de ser capturado\

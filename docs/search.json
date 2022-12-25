@@ -2,21 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "econ",
+    "title": "Resumo - Econometria",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Prefácio\nEste é um resumo do livro “Introdução à Econometria” (see Wooldridge 2019). Essa é uma forma de revisar o conteúdo e aprender a utilizar o Quarto Book.\n\n\n\n\nWooldridge, Jeffrey M. 2019. Introdução à Econometria. Cengage."
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },
@@ -25,6 +25,34 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Wooldridge, Jeffrey M. 2019. Introdução à Econometria. Cengage."
+  },
+  {
+    "objectID": "cap1.html",
+    "href": "cap1.html",
+    "title": "2  Capítulo 1",
+    "section": "",
+    "text": "3 Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime (Equation 3.1): \\[\ny = f(x_1, x_2, X_3, x_4)\n\\tag{3.1}\\]"
+  },
+  {
+    "objectID": "cap1.html#análises-econômicas",
+    "href": "cap1.html#análises-econômicas",
+    "title": "2  Capítulo 1",
+    "section": "2.1 Análises econômicas",
+    "text": "2.1 Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime (Equation 2.1):\n\\[\ny = f(x_1, x_2, x_3, x_4)\n\\tag{2.1}\\]\nem que:\n\\(x_1\\) = horas gastas em atividades criminosas\n\\(x_2\\) = “salário” por hora em atividade criminosa\n\\(x_3\\) = salário por hora em emprego legal\n\\(x_4\\) = probabilidade de ser capturado"
+  },
+  {
+    "objectID": "01_cap1.html#análises-econômicas",
+    "href": "01_cap1.html#análises-econômicas",
+    "title": "1  A natureza da econometria",
+    "section": "1 Análises econômicas",
+    "text": "1 Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime:\n\\[\ny = f(x_1, x_2, x_3, x_4)\n\\]\nem que:\n\\(x_1\\) = horas gastas em atividades criminosas\n\\(x_2\\) = “salário” por hora em atividade criminosa\n\\(x_3\\) = salário por hora em emprego legal\n\\(x_4\\) = probabilidade de ser capturado"
+  },
+  {
+    "objectID": "01_cap1.html",
+    "href": "01_cap1.html",
+    "title": "1  Capítulo 1",
+    "section": "",
+    "text": "##Análises econômicas\nUm modelo econômico consiste em equações matemáticas que descrevem várias relações. Um exemplo é o modelo econômico do crime (Equation 1.1):\n\\[\ny = f(x_1, x_2, x_3, x_4)\n\\tag{1.1}\\]\nem que:\n\\(x_1\\) = horas gastas em atividades criminosas\n\\(x_2\\) = “salário” por hora em atividade criminosa\n\\(x_3\\) = salário por hora em emprego legal\n\\(x_4\\) = probabilidade de ser capturado"
   }
 ]
